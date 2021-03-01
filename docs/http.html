@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+        -->
+
+    <title>HTTP & HTTPS</title>
+  </head>
+
+  <body>
+    <header class="bg-light">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">How the Internet Works </a>
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About This Project</a>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a
+                    class="nav-link active dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Learn More
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="domain.html"
+                        >Domain/ICANN</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="ip.html"
+                        >IP Addresses, Packets, and Routing</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="dns.html">DNS</a></li>
+                    <li>
+                      <a class="dropdown-item" href="http.html">HTTP & HTTPS</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="w3c.html"
+                        >W3C, HTML, & CSS</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <div class="py-3 mb-5 bg-secondary text-blue">
+        <div
+          class="container-lg py-3 bg-dark border border-white rounded text-center"
+        >
+          <h1 class="text-white">Hypertext Transfer Protocol</h1>
+          <div class="row p-4 align-items-center">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title">HTTP & HTTPS</h2>
+                  <p class="card-text">
+                    HTTP is a protocol that is used to transfer data over a network.
+                    Essentially, this protocol is a set of rules that dictates how
+                    information is transmitted on the World Wide Web.
+                    There are 2 main types of HTTP messages; requests and responses.
+                    HTTPS is the same thing as HTTP, but with encryption. HTTPS is
+                    much more secure because it uses SSL to encrypt the data that is
+                    being transferred over that network.
+                  </p>
+                  <p class="card-text">
+                    HTTP & HTTPS is what allows most data to be transferred over the internet.
+                    Often times we may take this for granted, but it is an important topic to
+                    understand. This is the set of rules standard rules which enables different
+                    sites to communicate with each other over a network.
+                  </p>
+                  <p class="card-text">
+                    The benefits of HTTPS are very apparent- See the image to the right to see why
+                    HTTPS is the preferred protocol!
+                  </p>
+                  <a href="https://www.guru99.com/difference-http-vs-https.html" class="btn btn-primary">Learn more about HTTP & HTTPS</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container-auto px">
+                <img
+                  src="images/https.png"
+                  class="rounded mx-auto d-block "
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <nav aria-label="Page navigation">
+          <ul class="pagination my-5 justify-content-center">
+            <a
+              class="page-link"
+              href="dns.html"
+              tabindex="-1"
+              aria-disabled="false"
+              ><< Previous</a
+            >
+            <li class="page-item">
+              <a class="page-link" href="domain.html">Domain/ICANN</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="ip.html"
+                >IP Addresses, Packets, & Routing</a
+              >
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="dns.html">DNS</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="http.html">HTTP & HTTPS</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="w3c.html">W3C, HTML, & CSS</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="w3c.html">Next >></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
