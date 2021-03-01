@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+        -->
+
+    <title>DNS</title>
+  </head>
+
+  <body>
+    <header class="bg-light">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">How the Internet Works </a>
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About This Project</a>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Learn More
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="domain.html"
+                        >Domain/ICANN</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="ip.html"
+                        >IP Addresses, Packets, and Routing</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="dns.html">DNS</a></li>
+                    <li>
+                      <a class="dropdown-item" href="http.html">HTTP & HTTPS</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="w3c.html"
+                        >W3C, HTML, & CSS</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <div class="py-3 mb-5 bg-secondary text-blue">
+        <div
+          class="container-lg py-3 bg-dark border border-white rounded text-center"
+        >
+          <h1 class="text-white">Domain Name System</h1>
+          <div class="row p-4 align-items-center">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title">DNS</h2>
+                  <p class="card-text">
+                    While internet browsers interact through IP addresses, humans
+                    cannot efficiently use those numerical labels. Instead we use
+                    domains. Domains can include sites like google.com or yahoo.com
+                  </p>
+                  <p class="card-text">
+                    The Domain Name System is a crucial part of the internet which
+                    allows humans to more effectively utilize the internet.
+                  </p>
+                  <p class="card-text">
+                    An example of how DNS works is a comparable to a phonebook
+                    or directory. For instance, when you type in google.com,
+                    DNS servers will look up the IP address for google.com and
+                    redirect you there automatically! The image to the right shows
+                    the concept of DNS at a high level.
+                  </p>
+                  <a href="https://www.cloudflare.com/learning/dns/what-is-dns/" class="btn btn-primary">Learn more about DNS</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="container-auto">
+                <img
+                  src="images/dns2.png"
+                  class="rounded mx-auto d-block mb-3"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <nav aria-label="Page navigation">
+          <ul class="pagination my-5 justify-content-center">
+            <a
+              class="page-link"
+              href="ip.html"
+              tabindex="-1"
+              aria-disabled="false"
+              ><< Previous</a
+            >
+            <li class="page-item">
+              <a class="page-link" href="domain.html">Domain/ICANN</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="ip.html"
+                >IP Addresses, Packets, & Routing</a
+              >
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="dns.html">DNS</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="http.html">HTTP & HTTPS</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="w3c.html">W3C, HTML, & CSS</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="http.html">Next >></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
